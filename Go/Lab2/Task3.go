@@ -14,7 +14,6 @@ func createFighters(size int) chan int {
 
 	for i := 0; i < size; i++ {
 		val := random.Intn(100) + 1
-		print(val, " ")
 		list <- val
 	}
 	println()
