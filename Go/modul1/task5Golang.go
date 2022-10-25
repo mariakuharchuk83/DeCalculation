@@ -38,9 +38,10 @@ func bus(stops []*BusStop, number int, wg *sync.WaitGroup) {
 func main() {
 	numOfBuses := 6
 	numOfStops := 3
+	numMaxOfBuses := 2
 	stops := make([]*BusStop, numOfStops)
 	for i := 0; i < numOfStops; i++ {
-		stops[i] = newBusStop(i + 1)
+		stops[i] = newBusStop(numMaxOfBuses)
 	}
 
 	wg := sync.WaitGroup{}

@@ -5,7 +5,7 @@ public class Main {
     public static boolean running = true;
     static final int busAmount = 6;
     static final int busStopAmount = 3;
-    static final int maxBusOnStopAmount = 3;
+    static final int maxBusOnStopAmount = 2;
     public static void main(String[] args) {
         Route route = new Route(busStopAmount, maxBusOnStopAmount);
 
