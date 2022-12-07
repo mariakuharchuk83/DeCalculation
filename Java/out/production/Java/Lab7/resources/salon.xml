@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE cns:salon SYSTEM "salon.dtd">
+<cns:salon xmlns:cns="http://www.example.com/salon"><manufacturer id="32433"><name>Manufacturer1</name><items><brand id="23437"><name>Brand1</name></brand><brand id="78433"><name>Brand2</name></brand></items></manufacturer><manufacturer id="42333"><name>Manufacturer2</name><items><brand id="23437"><name>Brand1</name></brand><brand id="78433"><name>Brand2</name></brand></items></manufacturer></cns:salon>
